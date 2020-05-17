@@ -1,14 +1,14 @@
 Table 1 Early Milestone object recognition datasets
 
-|   Dataset    | Num. of classes | Image # | Annotation type | Year |                         Description                          |
-| :----------: | :-------------: | :-----: | :-------------: | :--: | :----------------------------------------------------------: |
-|   COIL-100   |       100       |  7,200  | Classification  | 1996 | Single-object  images with black background – 72 poses for each object. |
-|    FERET     |      1,199      | 14,126  | Classification  | 1997 | Large-Scale  face recognition dataset and testing framework. |
-|     BSDS     |        -        |   500   |  Segmentation   | 2001 |  Category  agnostic segmentation of natural context images.  |
-| Caltech-101  |       102       |  9,144  |  Bounding Box   | 2003 |                101  common object categories.                |
-|   LabelMe    |       182       | 62,197  |    Polygons     | 2005 | Public  Online Annotation Tool  Polygons  instead of classification annotation. |
-| Caltech-256  |       257       | 30,307  |  Bounding  Box  | 2006 |                An  extension for Caltech-101.                |
-| Tiny  Images |     75,062      |  80  m  | Classification  | 2009 | 32×32  images hierarchically annotated based on the Wordnet Lexical database. |
+|                           Dataset                            | Num. of classes | Image # | Annotation type | Year |                         Description                          |
+| :----------------------------------------------------------: | :-------------: | :-----: | :-------------: | :--: | :----------------------------------------------------------: |
+|   [COIL-100](https://www.kaggle.com/jessicali9530/coil100)   |       100       |  7,200  | Classification  | 1996 | Single-object  images with black background – 72 poses for each object. |
+| [FERET](https://www.nist.gov/programs-projects/face-recognition-technology-feret) |      1,199      | 14,126  | Classification  | 1997 | Large-Scale  face recognition dataset and testing framework. |
+|           [BSDS](https://github.com/BIDS/BSDS500)            |        -        |   500   |  Segmentation   | 2001 |  Category  agnostic segmentation of natural context images.  |
+| [Caltech-101](http://www.vision.caltech.edu/Image_Datasets/Caltech101/) |       102       |  9,144  |  Bounding Box   | 2003 |                101  common object categories.                |
+| [LabelMe](https://github.com/wkentaro/labelme/blob/master/README.md) |       182       | 62,197  |    Polygons     | 2005 | Public  Online Annotation Tool  Polygons  instead of classification annotation. |
+| [Caltech-256](https://www.kaggle.com/jessicali9530/caltech256) |       257       | 30,307  |  Bounding  Box  | 2006 |                An  extension for Caltech-101.                |
+| [Tiny  Images](http://horatio.cs.nyu.edu/mit/tiny/data/index.html) |     75,062      |  80  m  | Classification  | 2009 | 32×32  images hierarchically annotated based on the Wordnet Lexical database. |
 
 
 
@@ -259,4 +259,49 @@ Table 15 – remote sensing object detection datasets. Dataset size is the numbe
 |     VEDAI  [235]     |   2016   |  3,600  vehicles   |  1,210   |                  12.5                  | Small  vehicle detection consisting of 9 vehicle classes, rotated bounding boxes |
 |   UCAS-AOD  [230]    |   2015   |   6,000  objects   |   910    |                   -                    | Rotated  bounding box annotations, vehicle and airplane detection, taken from Google  Earth |
 |       AID[240]       |   2016   |   10,000  scenes   |  10,000  |                 50-800                 |         Aerial  scene classification with 30 classes         |
+
+
+
+Table 16 – Remote sensing challenges. * the number of classes for the land cover classification task.
+
+|     **Challenge**      | **Year** | **Dataset  size** | **Classes  #** |                    **Evaluation  Metric**                    |                           **Task**                           |
+| :--------------------: | :------: | :---------------: | :------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| SpaceNet  C.1&C.2[241] |   2019   |       5,555       |       2        |                            score                             |          Building  footprint detection in 5 cities           |
+|   SpaceNet  C.3[241]   |   2019   |       5,555       |       1        |               Average  Path Length Similarity                |                   Road  network extraction                   |
+|      FMoW  [232]       |   2017   |       1  M        |       63       |                            score                             |                    Object  Classification                    |
+|      DSTL  [242]       |   2017   |        57         |       10       |                             IoU                              |                    Semantic  Segmentation                    |
+| NWPU-  RESISC45 [228]  |   2017   |      31,500       |       45       |                           Accuracy                           |                    Scene  Classification                     |
+|   DIUx  xView [231]    |   2018   |       1,400       |       60       |                             IoU                              |                      Object  detection                       |
+|    DeepGlobe  [226]    |   2018   |      10,000       |      7  *      | IoU,                                                                         score | Building  segmentation, road extraction, land cover classification |
+
+
+
+Table 17 – Species Recognition Datasets
+
+|          Dataset          | Images  # | Classes |      Annotation  #      | Year | Challenge |                         Description                          |
+| :-----------------------: | :-------: | :-----: | :---------------------: | :--: | :-------: | :----------------------------------------------------------: |
+|     Flower  102 [246]     |   8,189   |   103   |        8,189  SM        | 2008 |    No     | Flower  recognition dataset of 103 flower categories common in the United Kingdom |
+| Caltech-Birds  2011[247]  |  11,788   |   200   |       11,788  BB        | 2011 |    No     |      15  part locations and 28 attributes for each bird      |
+|   Stanford  Dogs [248]    |  22,000   |   120   |       22,000  BB        | 2011 |    No     |  Single-object  per image dataset for dog breed recognition  |
+|         F4K [249]         |  27,370   |   23    |       27,370  CL        | 2012 |    No     | Fish  recognition dataset annotated by following marine biologists |
+| Snapshot  Serengeti [243] |  1.2  m   |   61    | 406,433  CL, 150,000 BB | 2014 |    No     | Wild  animal classification dataset gathered using 225 camera-traps in Serengeti  National Park in Africa |
+|      NABirds  [250]       |  48,562   |   555   |       48,562  BB        | 2015 |    No     | Expert-curated  dataset of North American birds, 11 bird parts annotated in every image |
+|     PlantCLEF  [244]      |  434,251  | 10,000  |       10,000  CL        | 2015 |    Yes    | Plant  classification dataset gathered in the Amazon rainforest |
+|         iNat [79]         |  675,175  |  5,089  |       561,767  BB       | 2017 |    Yes    | Manually  collected dataset of 13 super-class and 5k sub-class species, organized in a hierarchical taxonomy, highly imbalanced |
+|  Dogs-in-the-Wild  [251]  |  300,000  |   362   |       300,000  CL       | 2018 |    No     | A  large dataset for dog breed classification in natural environments |
+|     AnimalWeb  [245]      |  21,900   |   334   |        198k  KP         | 2019 |    No     | Hierarchically  categorized dataset for animal face recognition with 9 keypoint annotations  per face |
+|        IP102[252]         |  75,000   |   102   | 75,000  CL,  19,000  BB | 2019 |    No     | Hierarchically  categorized dataset for insect pest recognition |
+
+
+
+Table 18 - Clothing Detection Datasets
+
+| Dataset             | Images  # | Classes | Annotated  Clothing instances # | Annotation  Type | Year | Challenge/Benchmark | Attributes  # |
+| ------------------- | --------- | ------- | ------------------------------- | ---------------- | ---- | ------------------- | ------------- |
+| DARN[255]           | 182,000   | 20      | 182,000                         | BB               | 2015 | No                  | 9             |
+| Street2Shop[256]    | 404,000   | 11      | 20,357                          | BB               | 2015 | No                  | -             |
+| DeepFashion[257]    | 800,000   | 50      | 180,000                         | KP               | 2016 | Yes                 | 5             |
+| ModaNet[253]        | 55,000    | 13      | 240,000                         | BB,  SM          | 2018 | No                  | -             |
+| FashionAI[258]      | 324,000   | 41      | 324,000                         | KP               | 2018 | No                  | 68            |
+| Deepfashion2  [254] | 491,000   | 13      | 801,000                         | BB,  SM, KP      | 2019 | Yes                 | 4             |
 
