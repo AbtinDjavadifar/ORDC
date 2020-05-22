@@ -14,9 +14,6 @@ Object Recognition Datasets and Challenges: A Review
 | [Tiny  Images](http://horatio.cs.nyu.edu/mit/tiny/data/index.html) |     75,062      |  80  m  | Classification  | 2009 | 32×32  images hierarchically annotated based on the Wordnet Lexical database. |
 
 
-
-
-
 ### Table 2 - Dataset statistic for PASCAL VOC, ImageNet, MS COCO, and Open Images 
 
 |                           Dataset                            | # of Classes | # of Images | Average  Objects Per Image | First  Introduced |
@@ -27,12 +24,9 @@ Object Recognition Datasets and Challenges: A Review
 | [Open  Images](https://opensource.google/projects/open-images-dataset) |        600         |     9,178,275     |            8.1             |       2017        |
 
 
+### Table 3 - Challenge Description for PASCAL VOC, ILSVRC, MS COCO, and Open Images
 
-
-
-### Table 3: Challenge Description for PASCAL VOC, ILSVRC, MS COCO, and Open Images
-
-|                          Challenge                           |         Tasks  Covered         | Classes  # |        Images  #        |           Annotated  Objects # |  Years  active  |                      Task  Description                       |                      Evaluation  Metric                      |
+|                          Challenge                           |         Tasks  Covered         | # of Classes |   # of Images       |           # of Annotated  Objects |  Years  active  |                      Task  Description                       |                      Evaluation  Metric                      |
 | :----------------------------------------------------------: | :----------------------------: | :--------: | :---------------------: | -----------------------------: | :-------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |    [PASCAL  VOC](http://host.robots.ox.ac.uk/pascal/VOC/)    |     Image  Classification      |     20     |         11,540          |                         27,450 |  2005  - 2012   | Absence/presence  prediction of at least one instance of every class in each image |                      Average  Precision                      |
 |                                                              |           Detection            |     20     |         11,540          |                         27,450 |  2005  - 2012   | Bounding  box prediction for every instance of the challenge classes present in images |              Average  Precision with IoU > 0.5               |
@@ -51,9 +45,6 @@ Object Recognition Datasets and Challenges: A Review
 | [Open Images](https://storage.googleapis.com/openimages/web/challenge2019.html) |       Object  Detection        |    500     |        1,743,042        |                     12,421,955 | 2018  - present |          Hierarchical-based  bounding box detection          |                             mAP                              |
 |                                                              |     Instance  Segmentation     |    300     |       ~  848,000        |                      2,148,896 | 2018  - present | Instance  Segmentation over object classes, negative labels included to refine training |                       mAP  at IoU>0.5                        |
 |                                                              | Visual  Relationship Detection |     57     |        1,743,042        | 380,000  relationship triplets | 2018  - present | Labeling  images with relationship triplets containing the interacting objects and the  action class | A  weighted sum of mAP and recall of number of relationships at IoU>0.5 |
-
-
-
 
 
 ### Table 4 – Generic object detection datasets 
@@ -81,9 +72,6 @@ Object Recognition Datasets and Challenges: A Review
 | [LabelMe](http://labelme.csail.mit.edu/Release3.0/browserTools/php/dataset.php) |     62,197      |   182   |  250,250   | 2005 |    No     | Instance-level  segmentations, some of the background classes have also been annotated |
 
 
-
-
-
 ### Table 6 – Popular scene recognition datasets
 
 |                           Dataset                            | # of Images | # of Classes | Additional  Annotations | Year | Description                                                  |
@@ -94,9 +82,6 @@ Object Recognition Datasets and Challenges: A Review
 | [SUN Attribute](http://cs.brown.edu/~gmpatter/sunattributes.html) |  14,000   |   700   | 102  binary attributes per image | 2012 | attribute-based  representation of scenes for a subset of the original SUN database |
 |     [Open Surfaces](http://opensurfaces.cs.cornell.edu/)     |  25,357   |   160   |     71,460  SM   (Surfaces)      | 2013 | Segmented  surfaces in interior scenes with texture and material information |
 |           [Places2](http://places2.csail.mit.edu/)           |   10  m   |   476   |                -                 | 2017 | Classification  of scenes bounded by spaces a human body would fit, with binary attributes |
-
-
-
 
 
 ### Table 7 – Scene parsing datasets
@@ -117,12 +102,9 @@ Object Recognition Datasets and Challenges: A Review
 |   [MS  COCO Stuff](https://github.com/nightrome/cocostuff)   |  163,957  |       91       |       80        | 2018 |    Yes    | Pixel-wise  semantic segmentation for the entire MS COCO dataset |
 
 
-
-
-
 ### Table 8 – Popular Street-view autonomous driving datasets
 
-|                         **Dataset**                          | **Year** |    **Location**     | **Annotated  frames** |    **Classes  #**     | **3D  Boxes** |                        **Highlights**                        |
+|                         **Dataset**                          | **Year** |    **Location**     | **Annotated  frames** |    ** # of Classes **     | **3D  Boxes** |                        **Highlights**                        |
 | :----------------------------------------------------------: | :------: | :-----------------: | :-------------------: | :-------------------: | :-----------: | :----------------------------------------------------------: |
 |        [KITTI](http://www.cvlibs.net/datasets/kitti/)        |   2012   | Karlsruhe,  Germany |          15k          |           8           |     200k      | Pioneer  benchmark dataset for 3D object detection, multimodal |
 |      [Cityscapes](https://www.cityscapes-dataset.com/)       |   2016   |  50  cities in EU   |          25k          |          27           |       0       | annotation  richness, scene variability and complexity  Provided  with depth information with stereo image and sensors |
@@ -146,7 +128,7 @@ Object Recognition Datasets and Challenges: A Review
 
 ### Table 9 – Pedestrian Detection Datasets. Number of images does not include unannotated images. Unique pedestrians are considered for the number of pedestrians.
 
-|                           Dataset                            | Year |  ** # of Cities **   | # of Images | # of Pedestrians |                          Highlights                          |
+|                           Dataset                            | Year |  # of Cities   | # of Images | # of Pedestrians |                          Highlights                          |
 | :----------------------------------------------------------: | :--: | :--------------: | :-------: | :-----------: | :----------------------------------------------------------: |
 |       [CityPersons](https://arxiv.org/abs/1702.05693)        | 2017 | 27  cities in EU |   5000    |     35016     |           Built  on top of the Cityscapes dataset            |
 |    [INRIA](https://project.inria.fr/aerialimagelabeling/)    | 2005 |        -         |    614    |      902      |                  Occlusion  labels included                  |
@@ -238,7 +220,7 @@ Object Recognition Datasets and Challenges: A Review
 
 ### Table 14 – Well-known face recognition datasets. Abbreviations in the table: Oclusion (O), Pose (P), Age (A), Expression (E), Skin color (S), Gender (G), Bounding Boxes (BB), Keypoints (KP), V (video)
 
-|                         **Dataset**                          | **Year** | ** # of Subjects ** | ** # of Images ** | **Additional  Information** | **Highlights**                                               |
+|                         **Dataset**                          | **Year** |  # of Subjects | # of Images | **Additional  Information** | **Highlights**                                               |
 | :----------------------------------------------------------: | -------- | :-------------: | :-----------: | :-------------------------: | ------------------------------------------------------------ |
 |  [VGGFace](https://www.robots.ox.ac.uk/~vgg/data/vgg_face/)  | 2015     |      2,622      |    2.6  M     |              A              | Large-scale  celebrity recognition with high intra-class variations |
 | [VGGFace2](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/)  | 2018     |      9,131      |     3.31M     |            A, P             | Diversified  pose, age, and ethnicity of celebrity faces     |
@@ -283,7 +265,7 @@ Object Recognition Datasets and Challenges: A Review
 
 Table 16 – Remote sensing challenges. * the number of classes for the land cover classification task.
 
-|                        **Challenge**                         | **Year** | **Dataset  size** | ** # of Classes ** |                    **Evaluation  Metric**                    |                           **Task**                           |
+|                        **Challenge**                         | **Year** | **Dataset  size** | # of Classes |                    **Evaluation  Metric**                    |                           **Task**                           |
 | :----------------------------------------------------------: | :------: | :---------------: | :------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | [SpaceNet  C.1&C.2](https://spacenetchallenge.github.io/Challenges/challengesSummary.html) |   2019   |       5,555       |       2        |                            score                             |          Building  footprint detection in 5 cities           |
 | [SpaceNet  C.3](https://spacenetchallenge.github.io/Challenges/challengesSummary.html) |   2019   |       5,555       |       1        |               Average  Path Length Similarity                |                   Road  network extraction                   |
