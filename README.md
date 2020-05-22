@@ -1,9 +1,9 @@
 # ORDC
 Object Recognition Datasets and Challenges: A Review
 
-### Table 1 Early Milestone object recognition datasets
+### Table 1 - Early Milestone object recognition datasets
 
-|                           Dataset                            | Num. of classes | Image # | Annotation type | Year |                         Description                          |
+|                           Dataset                            | # of classes | # of images | Annotation type | Year |                         Description                          |
 | :----------------------------------------------------------: | :-------------: | :-----: | :-------------: | :--: | :----------------------------------------------------------: |
 |   [COIL-100](https://www.kaggle.com/jessicali9530/coil100)   |       100       |  7,200  | Classification  | 1996 | Single-object  images with black background – 72 poses for each object. |
 | [FERET](https://www.nist.gov/programs-projects/face-recognition-technology-feret) |      1,199      | 14,126  | Classification  | 1997 | Large-Scale  face recognition dataset and testing framework. |
@@ -19,7 +19,7 @@ Object Recognition Datasets and Challenges: A Review
 
 ### Table 2 - Dataset statistic for PASCAL VOC, ImageNet, MS COCO, and Open Images 
 
-|                           Dataset                            | Number  of Classes | Number  of Images | Average  Objects Per Image | First  Introduced |
+|                           Dataset                            | # of Classes | # of Images | Average  Objects Per Image | First  Introduced |
 | :----------------------------------------------------------: | :----------------: | :---------------: | :------------------------: | :---------------: |
 |    [PASCAL  VOC](http://host.robots.ox.ac.uk/pascal/VOC/)    |         20         |      22,591       |            2.3             |       2005        |
 |            [ImageNet](http://www.image-net.org/)             |       21,841       |    14,197,122     |             3              |       2009        |
@@ -58,7 +58,7 @@ Object Recognition Datasets and Challenges: A Review
 
 ### Table 4 – Generic object detection datasets 
 
-|                           Dataset                            | Images  # | Classes | Bounding  Boxes # | Year |
+|                           Dataset                            | # of Images | # of Classes | # of Bounding  Boxes | Year |
 | :----------------------------------------------------------: | :-------: | :-----: | :---------------: | :--: |
 | [Caltech  101 ](http://www.vision.caltech.edu/Image_Datasets/Caltech101/) |   9,144   |   102   |       9144        | 2003 |
 |                          MIT  CSAIL                          |   2,500   |   21    |       2500        | 2004 |
@@ -68,12 +68,9 @@ Object Recognition Datasets and Challenges: A Review
 |   [Objects 365](https://www.objects365.org/overview.html)    |  638,000  |   365   |      10.1  m      | 2019 |
 
 
-
-
-
 ### Table 5 – Object Segmentation datasets
 
-|                           Dataset                            |    Images  #    | Classes | Objects  # | Year | Challenge |                         Description                          |
+|                           Dataset                            | # of Images | # of Classes | # of Objects | Year | Challenge |                         Description                          |
 | :----------------------------------------------------------: | :-------------: | :-----: | :--------: | :--: | :-------: | :----------------------------------------------------------: |
 |       [SUN](https://groups.csail.mit.edu/vision/SUN/)        |     130,519     |  3819   |  313,884   | 2010 |    No     | The  main purpose of the dataset is scene recognition, however instance-level  segmentation masks have also been provided |
 | [SBD](http://home.bharathh.info/pubs/codes/SBD/download.html) |     10,000      |   20    |   20,000   | 2011 |    No     | Object  contours on the train/validation images of PASCAL VOC |
@@ -89,7 +86,7 @@ Object Recognition Datasets and Challenges: A Review
 
 ### Table 6 – Popular scene recognition datasets
 
-|                           Dataset                            | Images  # | Classes |     Additional  Annotations      | Year | Description                                                  |
+|                           Dataset                            | # of Images | # of Classes | Additional  Annotations | Year | Description                                                  |
 | :----------------------------------------------------------: | :-------: | :-----: | :------------------------------: | ---- | ------------------------------------------------------------ |
 | [15-Scene](https://www.kaggle.com/zaiyankhan/15scene-dataset) |   4,485   |   15    |                -                 | 2006 | One  of the earliest major scene classification datasets     |
 | [MIT Indoor67](https://www.kaggle.com/naveenkavuru/mit-indoor-67) |  15,620   |   67    |                -                 | 2009 | Indoor  scene classification in 5 main groups: Store, Home, Public Space, Leisure,  and Working Place |
@@ -104,7 +101,7 @@ Object Recognition Datasets and Challenges: A Review
 
 ### Table 7 – Scene parsing datasets
 
-|                           Dataset                            | Images  # | Stuff  Classes | Object  Classes | Year | Challenge |                          Highlights                          |
+|                           Dataset                            | # of Images | Stuff  Classes | Object  Classes | Year | Challenge |                          Highlights                          |
 | :----------------------------------------------------------: | :-------: | :------------: | :-------------: | :--: | :-------: | :----------------------------------------------------------: |
 | [MSRC 21](https://www.microsoft.com/en-us/research/project/image-understanding/?from=http%3A%2F%2Fresearch.microsoft.com%2Fvision%2Fcambridge%2Frecognition%2F#!downloads) |    591    |       6        |       15        | 2006 |    No     | One of the earliest semantic scene parsing datasets, Images were later used in [71], [101] |
 | [Stanford  Background](http://dags.stanford.edu/projects/scenedataset.html) |    715    |       7        |        1        | 2009 |    No     | Outdoor  scene parsing dataset collected from LabelMe, MSRC, and PASCAL VOC. Geometric  features also included |
@@ -149,7 +146,7 @@ Object Recognition Datasets and Challenges: A Review
 
 ### Table 9 – Pedestrian Detection Datasets. Number of images does not include unannotated images. Unique pedestrians are considered for the number of pedestrians.
 
-|                           Dataset                            | Year |  **Cities  #**   | Images  # | Pedestrian  # |                          Highlights                          |
+|                           Dataset                            | Year |  ** # of Cities **   | # of Images | # of Pedestrians |                          Highlights                          |
 | :----------------------------------------------------------: | :--: | :--------------: | :-------: | :-----------: | :----------------------------------------------------------: |
 |       [CityPersons](https://arxiv.org/abs/1702.05693)        | 2017 | 27  cities in EU |   5000    |     35016     |           Built  on top of the Cityscapes dataset            |
 |    [INRIA](https://project.inria.fr/aerialimagelabeling/)    | 2005 |        -         |    614    |      902      |                  Occlusion  labels included                  |
@@ -193,9 +190,6 @@ Object Recognition Datasets and Challenges: A Review
 | [GM-ATCI Rear-view pedestrians dataset Benchmark](https://sites.google.com/site/rearviewpeds1/) | 2016     | Pedestrian detection                                         | GM-ATCI Rear-view pedestrians dataset | IoU                                                          | Study of position and occlusion pattern of pedestrian        |
 | [Caltech Pedestrian Detection Benchmark](http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/) | 2012     | Pedestrian detection                                         | Caltech Pedestrian dataset            | IoU                                                          | -                                                            |
 | [The KITTI 2D Object Evaluation Benchmark](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=2d) | 2012     | Object detection & Object Orientation                        | KITTI dataset                         | precision-recall curve & AP    & average orientation similarity | Objection detection from 2D RGB images                       |
-
-
-
 
 
 ### Table 12 - Medical imaging datasets
@@ -242,12 +236,9 @@ Object Recognition Datasets and Challenges: A Review
 | [The Digital Database for Screening Mammography](http://www.eng.usf.edu/cvprg/Mammography/Database.html) | 2620 cases    | 1998     | Breast                   | Mammography images                | no                            | The database has the  function for user to search classes among normal, benign and cancer. |
 
 
-
-
-
 ### Table 14 – Well-known face recognition datasets. Abbreviations in the table: Oclusion (O), Pose (P), Age (A), Expression (E), Skin color (S), Gender (G), Bounding Boxes (BB), Keypoints (KP), V (video)
 
-|                         **Dataset**                          | **Year** | **Subjects  #** | **Images  #** | **Additional  Information** | **Highlights**                                               |
+|                         **Dataset**                          | **Year** | ** # of Subjects ** | ** # of Images ** | **Additional  Information** | **Highlights**                                               |
 | :----------------------------------------------------------: | -------- | :-------------: | :-----------: | :-------------------------: | ------------------------------------------------------------ |
 |  [VGGFace](https://www.robots.ox.ac.uk/~vgg/data/vgg_face/)  | 2015     |      2,622      |    2.6  M     |              A              | Large-scale  celebrity recognition with high intra-class variations |
 | [VGGFace2](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/)  | 2018     |      9,131      |     3.31M     |            A, P             | Diversified  pose, age, and ethnicity of celebrity faces     |
@@ -266,9 +257,6 @@ Object Recognition Datasets and Challenges: A Review
 | [IJB-C](https://www.nist.gov/programs-projects/face-challenges) | 2018     |      3,531      |    31,334     |         A,  G, P, S         | An  improvement upon IJB-B with a focus on diversifying the geographic coverage  of subjects |
 |  [FaceScrub](http://vintage.winklerbros.net/facescrub.html)  | 2014     |       695       |    141,130    |              G              | A  broad dataset of movie celebrities gathered from IMDB     |
 |         [CACD](https://bcsiriuschen.github.io/CARC/)         | 2014     |      2,000      |    163,446    |              A              | Images  include age variations for each subject for cross-age face recognition and  retrieval, only 200 subjects are manually annotated. |
-
-
-
 
 
 ### Table 15 – remote sensing object detection datasets. Dataset size is the number of images unless states otherwise
@@ -295,7 +283,7 @@ Object Recognition Datasets and Challenges: A Review
 
 Table 16 – Remote sensing challenges. * the number of classes for the land cover classification task.
 
-|                        **Challenge**                         | **Year** | **Dataset  size** | **Classes  #** |                    **Evaluation  Metric**                    |                           **Task**                           |
+|                        **Challenge**                         | **Year** | **Dataset  size** | ** # of Classes ** |                    **Evaluation  Metric**                    |                           **Task**                           |
 | :----------------------------------------------------------: | :------: | :---------------: | :------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | [SpaceNet  C.1&C.2](https://spacenetchallenge.github.io/Challenges/challengesSummary.html) |   2019   |       5,555       |       2        |                            score                             |          Building  footprint detection in 5 cities           |
 | [SpaceNet  C.3](https://spacenetchallenge.github.io/Challenges/challengesSummary.html) |   2019   |       5,555       |       1        |               Average  Path Length Similarity                |                   Road  network extraction                   |
@@ -309,7 +297,7 @@ Table 16 – Remote sensing challenges. * the number of classes for the land cov
 
 Table 17 – Species Recognition Datasets
 
-|                           Dataset                            | Images  # | Classes |      Annotation  #      | Year | Challenge |                         Description                          |
+|                           Dataset                            | # of Images | # of Classes | # of Annotations | Year | Challenge |                         Description                          |
 | :----------------------------------------------------------: | :-------: | :-----: | :---------------------: | :--: | :-------: | :----------------------------------------------------------: |
 | [Flower  102](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/) |   8,189   |   103   |        8,189  SM        | 2008 |    No     | Flower  recognition dataset of 103 flower categories common in the United Kingdom |
 | [Caltech-Birds  2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) |  11,788   |   200   |       11,788  BB        | 2011 |    No     |      15  part locations and 28 attributes for each bird      |
@@ -327,7 +315,7 @@ Table 17 – Species Recognition Datasets
 
 Table 18 - Clothing Detection Datasets
 
-|                           Dataset                            | Images  # | Classes | Annotated  Clothing instances # | Annotation  Type | Year | Challenge/Benchmark | Attributes  # |
+|                           Dataset                            | # of Images | # of Classes | # of Annotated  Clothing instances | Annotation  Type | Year | Challenge/Benchmark | # of Attributes |
 | :----------------------------------------------------------: | :-------: | :-----: | :-----------------------------: | :--------------: | :--: | :-----------------: | :-----------: |
 |                             DARN                             |  182,000  |   20    |             182,000             |        BB        | 2015 |         No          |       9       |
 |    [Street2Shop](http://www.tamaraberg.com/street2shop/)     |  404,000  |   11    |             20,357              |        BB        | 2015 |         No          |       -       |
