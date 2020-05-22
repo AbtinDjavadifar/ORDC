@@ -241,7 +241,7 @@ Object Recognition Datasets and Challenges: A Review
 |         [CACD](https://bcsiriuschen.github.io/CARC/)         | 2014     |      2,000      |    163,446    |              A              | Images  include age variations for each subject for cross-age face recognition and  retrieval, only 200 subjects are manually annotated. |
 
 
-### Table 15 – remote sensing object detection datasets. Dataset size is the number of images unless states otherwise
+### Table 15 – Remote sensing object detection datasets. Dataset size is the number of images unless states otherwise
 
 |                         **Dataset**                          | **Year** |   **Annotation**   | **Size** | **Spatial  Resolution (cm per pixel)** |                       **Description**                        |
 | :----------------------------------------------------------: | :------: | :----------------: | :------: | :------------------------------------: | :----------------------------------------------------------: |
