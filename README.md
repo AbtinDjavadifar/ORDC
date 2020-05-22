@@ -263,7 +263,7 @@ Object Recognition Datasets and Challenges: A Review
 
 
 
-Table 16 – Remote sensing challenges. * the number of classes for the land cover classification task.
+### Table 16 – Remote sensing challenges. * the number of classes for the land cover classification task.
 
 |                        **Challenge**                         | **Year** | **Dataset  size** | # of Classes |                    **Evaluation  Metric**                    |                           **Task**                           |
 | :----------------------------------------------------------: | :------: | :---------------: | :------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -277,7 +277,7 @@ Table 16 – Remote sensing challenges. * the number of classes for the land cov
 
 
 
-Table 17 – Species Recognition Datasets
+### Table 17 – Species Recognition Datasets
 
 |                           Dataset                            | # of Images | # of Classes | # of Annotations | Year | Challenge |                         Description                          |
 | :----------------------------------------------------------: | :-------: | :-----: | :---------------------: | :--: | :-------: | :----------------------------------------------------------: |
@@ -295,7 +295,7 @@ Table 17 – Species Recognition Datasets
 
 
 
-Table 18 - Clothing Detection Datasets
+### Table 18 - Clothing Detection Datasets
 
 |                           Dataset                            | # of Images | # of Classes | # of Annotated  Clothing instances | Annotation  Type | Year | Challenge/Benchmark | # of Attributes |
 | :----------------------------------------------------------: | :-------: | :-----: | :-----------------------------: | :--------------: | :--: | :-----------------: | :-----------: |
